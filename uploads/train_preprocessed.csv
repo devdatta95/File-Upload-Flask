@@ -1,0 +1,11 @@
+ID,Warehouse_block,Mode_of_Shipment,Customer_care_calls,Customer_rating,Cost_of_the_Product,Prior_purchases,Product_importance,Gender,Discount_offered,Weight_in_gms,Reached.on.Time_Y.N,Random Column,Addr
+2,F,Flight,4,5,216,2,low,M,59,3088,1,251,Mumbai_Andheri
+3,A,Flight,2,2,183,4,low,M,48,3374,1,659,Mumbai_Andheri
+4,B,Flight,3,3,176,4,medium,M,10,1177,1,237,Mumbai_Andheri
+5,C,Flight,2,2,184,3,medium,F,46,2484,1,745,Mumbai_Andheri
+7,D,Flight,3,4,250,3,low,F,3,2371,1,168,Mumbai_Andheri
+9,A,Flight,3,4,150,3,low,F,11,1861,1,410,Mumbai_Andheri
+10,B,Flight,3,2,164,3,medium,F,29,1187,1,309,Mumbai_Andheri
+14,F,Flight,4,4,275,3,high,M,29,2602,1,341,Mumbai_Andheri
+15,A,Flight,4,3,152,3,low,M,43,1009,1,327,Mumbai_Andheri
+16,B,Flight,4,3,227,3,low,F,45,2707,1,737,Mumbai_Andheri

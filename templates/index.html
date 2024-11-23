@@ -1,0 +1,29 @@
+
+  <!-----------------------------  BASE SECTION  ----------------------------------->
+
+{% extends "base.html"%}
+
+
+
+{% block content %}
+
+
+  <!---------------------------  HOME BODY SECTION   ------------------------------>
+
+<div>
+
+        <div class="w3-content w3-pale-red" id=form1 style="max-width:800px">
+
+        <h1>File Upload</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv, .xls, .xlsx">
+            <input type="submit" value="Upload">
+        </form>
+
+        </div>
+
+</div>
+
+{% endblock %}
+  <!-----------------------------  THE END  ----------------------------------->
+

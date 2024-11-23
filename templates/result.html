@@ -1,0 +1,27 @@
+
+  <!-----------------------------  BASE SECTION  ----------------------------------->
+
+{% extends "base.html"%}
+
+
+
+{% block content %}
+
+ <div class="w3-content w3-pale-red" id=form1 style="max-width:1600px">
+      <h1>Preprocessed File</h1>
+    <table>
+        {{ table|safe }}
+    </table>
+    <form action="{{ url_for('download_file', filename=filename) }}" method="get">
+        <br>
+        <br>
+
+        <button class="dw-button" type="submit">Download Preprocessed File</button>
+    </form>
+
+
+     </div>
+
+{% endblock %}
+  <!-----------------------------  THE END  ----------------------------------->
+
